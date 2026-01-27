@@ -66,7 +66,7 @@ function draw() {
   background(240);
 
   // --- Draw all platforms ---
-  fill(200);
+  fill("lightblue");
   for (const p of platforms) {
     rect(p.x, p.y, p.w, p.h);
   }
