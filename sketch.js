@@ -9,8 +9,8 @@ let blob3 = {
 
   // Visual properties
   r: 30, // Base radius
-  points: 48, // Number of points used to draw the blob
-  wobble: 7, // Edge deformation amount
+  points: 60, // Number of points used to draw the blob
+  wobble: 8, // Edge deformation amount
   wobbleFreq: 0.7,
 
   // Time values for breathing animation
@@ -31,7 +31,7 @@ let blob3 = {
   onGround: false, // True when standing on a platform
 
   // Friction
-  frictionAir: 0.995, // Light friction in air
+  frictionAir: 0.955, // Light friction in air
   frictionGround: 0.88, // Stronger friction on ground
 };
 
